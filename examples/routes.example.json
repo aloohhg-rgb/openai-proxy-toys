@@ -1,0 +1,15 @@
+{
+  "default": "http://127.0.0.1:8080",
+  "routes": [
+    {
+      "prefix": "local-",
+      "upstream": "http://127.0.0.1:8080",
+      "strip_prefix": true
+    },
+    {
+      "prefix": "remote-",
+      "upstream": "http://127.0.0.1:8000",
+      "strip_prefix": true
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# intentionally tiny
+aiohttp>=3.9.0
